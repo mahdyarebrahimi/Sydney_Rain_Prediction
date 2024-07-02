@@ -1,1 +1,5 @@
-# Sydney_Rain_Prediction
+# portfolio-part-4-mahdyarr
+In Portfolio part 4, we were asked to analyze a dataset of our choice. I chose a dataset that contains the weather data in Australia for ten years, although we only used the weather data of Sydney. The main goal of this analysis is to train different kinds of models to predict whether it will rain tomorrow or not.
+The dataset includes 23 different features, but the most important ones are Sunshine, Humidity9am, Humidity3pm, Cloud9am, Cloud3pm, RainToday, and RainTomorrow. At first, we explored and cleaned the dataset. We replaced all the missing values with the mean of that column for numerical values, and we replaced all the missing values with the most frequent value in that column for categorical columns.
+After that, we removed all the outliers, and we converted all the categorical values to digit values. In the next step, we studied the correlation between features and chose the six most correlated features to RainTomorrow. We split the dataset and trained a Logistic Regression model and a KNN model, and we evaluated the outcome for both models.
+In the end, we compared the performance of models using different metrics and the ROC-Curve.
